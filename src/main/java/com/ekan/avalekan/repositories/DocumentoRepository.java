@@ -3,9 +3,9 @@ package com.ekan.avalekan.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.freinert.cursomc.domain.Produto;
+import com.ekan.avalekan.domain.Documento;
 
 @Repository
-public interface ProdutoRepository extends JpaRepository<Produto, Integer > {
+public interface DocumentoRepository extends JpaRepository<Documento, Integer > {
 
 }
